@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: 80px auto;
+}
+
+.newG {
+  color: black;
+  background-color: yellow;
+  margin-bottom: 40px;
+}
+
+.newButton {
+  width: 90px;
+  height: 40px;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.newButton:hover {
+  background-color: teal;
+}
